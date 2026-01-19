@@ -9,6 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // We remove the "root" and "build" overrides so Vercel 
-  // can use its standard settings.
+  // We remove the "root: client" line so it looks in the main folder
 });
